@@ -1,0 +1,16 @@
+replicacount: 1
+
+image:
+  repository: kopilb/go-web-app
+  pullPolicy: IfNotPresent
+  tag: "v0.1.0"
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: chart-example.local
+      paths: 
+        - path: /
+          pathType: ImplementationSpecific
