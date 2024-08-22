@@ -3,7 +3,7 @@ replicacount: 1
 image:
   repository: kopilb/go-web-app
   pullPolicy: IfNotPresent
-  tag: "v0.1.0"
+  tag: "10512932693"
 
 ingress:
   enabled: false
